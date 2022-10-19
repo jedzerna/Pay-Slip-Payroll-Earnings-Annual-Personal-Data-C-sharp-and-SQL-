@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="annualadtaset" targetNamespace="http://tempuri.org/annualadtaset.xsd" xmlns:mstns="http://tempuri.org/annualadtaset.xsd" xmlns="http://tempuri.org/annualadtaset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="annualadtaset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="annualadtaset" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="annualadtaset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblSummary" msprop:Generator_RowClassName="tblSummaryRow" msprop:Generator_RowEvHandlerName="tblSummaryRowChangeEventHandler" msprop:Generator_RowDeletedName="tblSummaryRowDeleted" msprop:Generator_RowDeletingName="tblSummaryRowDeleting" msprop:Generator_RowEvArgName="tblSummaryRowChangeEvent" msprop:Generator_TablePropName="tblSummary" msprop:Generator_RowChangedName="tblSummaryRowChanged" msprop:Generator_UserTableName="tblSummary" msprop:Generator_RowChangingName="tblSummaryRowChanging" msprop:Generator_TableClassName="tblSummaryDataTable" msprop:Generator_TableVarName="tabletblSummary">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ROW" msprop:Generator_UserColumnName="ROW" msprop:Generator_ColumnPropNameInTable="ROWColumn" msprop:Generator_ColumnPropNameInRow="ROW" msprop:Generator_ColumnVarNameInTable="columnROW" type="xs:string" minOccurs="0" />
+              <xs:element name="DEBIT" msprop:Generator_UserColumnName="DEBIT" msprop:Generator_ColumnPropNameInTable="DEBITColumn" msprop:Generator_ColumnPropNameInRow="DEBIT" msprop:Generator_ColumnVarNameInTable="columnDEBIT" type="xs:string" minOccurs="0" />
+              <xs:element name="CREDIT" msprop:Generator_UserColumnName="CREDIT" msprop:Generator_ColumnPropNameInTable="CREDITColumn" msprop:Generator_ColumnPropNameInRow="CREDIT" msprop:Generator_ColumnVarNameInTable="columnCREDIT" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblGrandTotal" msprop:Generator_RowEvHandlerName="tblGrandTotalRowChangeEventHandler" msprop:Generator_RowDeletedName="tblGrandTotalRowDeleted" msprop:Generator_RowDeletingName="tblGrandTotalRowDeleting" msprop:Generator_RowEvArgName="tblGrandTotalRowChangeEvent" msprop:Generator_TablePropName="tblGrandTotal" msprop:Generator_RowChangedName="tblGrandTotalRowChanged" msprop:Generator_RowChangingName="tblGrandTotalRowChanging" msprop:Generator_TableClassName="tblGrandTotalDataTable" msprop:Generator_RowClassName="tblGrandTotalRow" msprop:Generator_TableVarName="tabletblGrandTotal" msprop:Generator_UserTableName="tblGrandTotal">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ROW" msprop:Generator_ColumnPropNameInRow="ROW" msprop:Generator_ColumnPropNameInTable="ROWColumn" msprop:Generator_ColumnVarNameInTable="columnROW" msprop:Generator_UserColumnName="ROW" type="xs:string" minOccurs="0" />
+              <xs:element name="DEBIT" msprop:Generator_ColumnPropNameInRow="DEBIT" msprop:Generator_ColumnPropNameInTable="DEBITColumn" msprop:Generator_ColumnVarNameInTable="columnDEBIT" msprop:Generator_UserColumnName="DEBIT" type="xs:string" minOccurs="0" />
+              <xs:element name="CREDIT" msprop:Generator_ColumnPropNameInRow="CREDIT" msprop:Generator_ColumnPropNameInTable="CREDITColumn" msprop:Generator_ColumnVarNameInTable="columnCREDIT" msprop:Generator_UserColumnName="CREDIT" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblTitle" msprop:Generator_RowEvHandlerName="tblTitleRowChangeEventHandler" msprop:Generator_RowDeletedName="tblTitleRowDeleted" msprop:Generator_RowDeletingName="tblTitleRowDeleting" msprop:Generator_RowEvArgName="tblTitleRowChangeEvent" msprop:Generator_TablePropName="tblTitle" msprop:Generator_RowChangedName="tblTitleRowChanged" msprop:Generator_RowChangingName="tblTitleRowChanging" msprop:Generator_TableClassName="tblTitleDataTable" msprop:Generator_RowClassName="tblTitleRow" msprop:Generator_TableVarName="tabletblTitle" msprop:Generator_UserTableName="tblTitle">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Title" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_UserColumnName="Title" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
